@@ -69,6 +69,11 @@ sudo systemctl start nftables
 
 Instale o serviço e configure os *pools* de IP para cada interface LAN.
 
+```
+    apt install isc-dhcp-server
+```
+
+
 **Fixar Endereços IP (IP Fixo):**
 O **Webmin** será seu melhor amigo aqui. No módulo DHCP Server, você pode criar facilmente entradas de host fixo (mapeamento MAC -\> IP) para as máquinas que não devem pegar IP dinâmico.
 
